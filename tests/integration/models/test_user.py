@@ -1,4 +1,4 @@
-from tests.integration.integration_base_test import BaseTest
+from tests.base_test import BaseTest
 from models.user import UserModel
 
 
