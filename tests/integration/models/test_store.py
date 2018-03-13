@@ -3,7 +3,7 @@ from models.item import ItemModel
 from tests.integration.integration_base_test import BaseTest
 
 
-class StoreTest(BaseTest):
+class TestStore(BaseTest):
     def test_create_store_items_empty(self):
         store = StoreModel('test')
 
